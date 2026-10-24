@@ -368,6 +368,25 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "test/broker/echo" -m "Echo response from 
 ```
 * ตรวจสอบว่าในช่อง Logs ของ Flutter App แสดงข้อความที่ได้รับอย่างถูกต้อง
 
+
+<img width="1577" height="888" alt="image" src="https://github.com/user-attachments/assets/b41cfbc4-4bc0-426b-a321-9fea0a3ab316" />
+
+
+<img width="1577" height="887" alt="image" src="https://github.com/user-attachments/assets/577f7d5d-f42e-45ea-9b41-4a868e70a80c" />
+
+
+<img width="1587" height="890" alt="image" src="https://github.com/user-attachments/assets/d5a28116-d426-4ab1-b96e-0755e4a905b5" />
+
+
+<img width="1475" height="437" alt="image" src="https://github.com/user-attachments/assets/7d9a763f-1fa7-403c-ab5e-3b3fa538c33e" />
+
+
+<img width="1487" height="347" alt="image" src="https://github.com/user-attachments/assets/17eb28b8-6b07-46da-bf40-d272ce3bfa26" />
+
+
+<img width="1477" height="426" alt="image" src="https://github.com/user-attachments/assets/bc6849b2-a539-4a4e-8b8d-eae627287067" />
+
+
 ---
 
 ## 4. คำถามท้ายการทดลอง (Review Questions)
