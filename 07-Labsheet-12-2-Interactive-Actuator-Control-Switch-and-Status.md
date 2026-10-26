@@ -339,11 +339,18 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/status" -m "online" -r
 ```
 *สังเกตหน้าจอ Flutter แถบสถานะด้านบนจะเปลี่ยนเป็นสีเขียวทันที*
 
+
+<img width="1296" height="990" alt="image" src="https://github.com/user-attachments/assets/d1a092f9-0fdc-4daf-8c2b-6504e584d44b" />
+
+
 #### 2. เฝ้าดูคำสั่งที่ส่งมาจากแอป Flutter
 ```powershell
 mosquitto_sub -h 127.0.0.1 -p 1883 -t "iot/esp32/control" -v
 ```
 *เมื่อแตะสวิตช์บน Flutter จะเห็นแพ็กเก็ต `{"led":"ON"}` หรือ `{"led":"OFF"}` ปรากฏในเทอร์มินัล*
+
+<img width="865" height="118" alt="image" src="https://github.com/user-attachments/assets/0756dcf8-06af-44e8-bf7d-c680d4dbd5bd" />
+
 
 #### 3. ส่งคำสั่งยืนยันกลับไปยังแอป (เสมือนบอร์ดเปลี่ยนสถานะขา GPIO สำเร็จ)
 ```powershell
