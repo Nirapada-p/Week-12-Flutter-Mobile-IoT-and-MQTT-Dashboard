@@ -358,11 +358,18 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/led_ack" -m '{"led_state": true
 ```
 *สังเกตสวิตช์และไอคอนหลอดไฟบนมือถือจะเรืองแสงสีเขียวทันที*
 
+
+<img width="1915" height="1015" alt="image" src="https://github.com/user-attachments/assets/24818cb7-142f-4ca8-8247-cca5e2bdd961" />
+
+
 #### 4. จำลองเหตุการณ์บอร์ดดับหรือเน็ตหลุด (เสมือน Broker ส่ง LWT)
 ```powershell
 mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/status" -m "offline" -r
 ```
 *สังเกตว่าหน้าจอจะแจ้งเตือนว่า ESP32 ออฟไลน์ทันที และสวิตช์จะไม่ยอมให้สั่งการ*
+
+<img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/3a53af65-dbcb-413c-9424-e4d234937d55" />
+
 
 ---
 
