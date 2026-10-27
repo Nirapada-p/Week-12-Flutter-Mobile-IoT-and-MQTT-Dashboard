@@ -496,7 +496,7 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 1.65
 *สังเกตเข็ม Radial Gauge หมุนไปที่กึ่งกลาง (1.65 V) และการ์ดแสดงค่า 2048 / 4095*
 
 
-<img width="1577" height="892" alt="image" src="https://github.com/user-attachments/assets/5833e9a8-d9d9-4763-a862-2aee20ade34b" />
+<img width="1577" height="887" alt="image" src="https://github.com/user-attachments/assets/b89bdd41-7a74-4017-9360-2b00fb74699f" />
 
 
 <img width="912" height="197" alt="image" src="https://github.com/user-attachments/assets/69f51b3e-2494-41fe-9977-d84a61d3eeb5" />
