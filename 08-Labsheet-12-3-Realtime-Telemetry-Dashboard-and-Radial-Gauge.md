@@ -508,6 +508,12 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 3.15
 ```
 *สังเกตเข็มหมุนเข้าสู่โซนสีแดง และการ์ด "แรงดันสูงสุด" ปรับค่าเป็น `3.15 V` ทันที*
 
+<img width="1591" height="897" alt="image" src="https://github.com/user-attachments/assets/c52150fb-27f4-4a8b-9702-225ec8c6c5e1" />
+
+
+<img width="1177" height="485" alt="image" src="https://github.com/user-attachments/assets/81c02fa6-8a7f-4dc4-be72-33b4b1840f0d" />
+
+
 - **จำลองสตรีมข้อมูลต่อเนื่อง 30 ค่าด้วย PowerShell Loop:**
 ```powershell
 1..30 | ForEach-Object {
