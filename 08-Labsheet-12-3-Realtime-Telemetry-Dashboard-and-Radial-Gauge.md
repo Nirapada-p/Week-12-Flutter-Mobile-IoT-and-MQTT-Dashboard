@@ -499,6 +499,9 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 1.65
 <img width="1577" height="892" alt="image" src="https://github.com/user-attachments/assets/5833e9a8-d9d9-4763-a862-2aee20ade34b" />
 
 
+<img width="912" height="197" alt="image" src="https://github.com/user-attachments/assets/69f51b3e-2494-41fe-9977-d84a61d3eeb5" />
+
+
 - **ทดสอบส่งค่าแรงดันสูงแตะขีดจำกัด (3.15 V):**
 ```powershell
 mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 3.15, "raw": 3910, "uptime": 20}'
