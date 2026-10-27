@@ -495,6 +495,10 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 1.65
 ```
 *สังเกตเข็ม Radial Gauge หมุนไปที่กึ่งกลาง (1.65 V) และการ์ดแสดงค่า 2048 / 4095*
 
+
+<img width="1577" height="892" alt="image" src="https://github.com/user-attachments/assets/5833e9a8-d9d9-4763-a862-2aee20ade34b" />
+
+
 - **ทดสอบส่งค่าแรงดันสูงแตะขีดจำกัด (3.15 V):**
 ```powershell
 mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 3.15, "raw": 3910, "uptime": 20}'
