@@ -524,6 +524,15 @@ mosquitto_pub -h 127.0.0.1 -p 1883 -t "iot/esp32/telemetry" -m '{"voltage": 3.15
 }
 ```
 
+<img width="1588" height="887" alt="image" src="https://github.com/user-attachments/assets/94130880-614e-448d-83ac-336d09adf67d" />
+
+
+<img width="627" height="590" alt="image" src="https://github.com/user-attachments/assets/9d93d021-e12e-4954-9df7-c69aa0b37a49" />
+
+
+<img width="1151" height="650" alt="image" src="https://github.com/user-attachments/assets/b3d1a6ae-68b2-4d97-8d4e-a1625ab69108" />
+
+
 ---
 
 ## 4. สรุปผลและคำถามท้ายการทดลอง
