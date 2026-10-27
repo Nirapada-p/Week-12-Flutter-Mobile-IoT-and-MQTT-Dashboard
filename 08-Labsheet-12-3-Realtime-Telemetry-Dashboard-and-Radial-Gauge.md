@@ -482,6 +482,10 @@ python pyTeleSim.py
   <em>รูปที่ 12.3-2 ผลการทดสอบแดชบอร์ดแสดงผลค่าแรงดันแบบเรียลไทม์ร่วมกับสัญญาณ Sine Wave</em>
 </p>
 
+
+<img width="1581" height="900" alt="image" src="https://github.com/user-attachments/assets/9aa90689-551e-4810-bbc0-075f2bc862a6" />
+
+
 #### 2. การทดสอบแบบเจาะจงค่าผ่าน Mosquitto CLI (PowerShell)
 สามารถใช้คำสั่ง `mosquitto_pub` ทดสอบส่งค่าเฉพาะเพื่อตรวจสอบพฤติกรรมของ Gauge ในสภาวะต่างๆ:
 
